@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+<section>
+    <h1>Idealgewichtsrechner</h1>
+    <form action="">
+        <label for="">Körpergröße</label><br>
+        <input type="number" id="groesse"><br>
+        <label for="Alter">Alter</label><br>
+        <input type="number" id="alter"><br>
+        <label for="Alter">Körperbau</label><br>
+        <input type="radio" name="koerper" id="schmal" checked>
+        <label for="koerper">- schmal</label><br>
+        <input type="radio" name="koerper" id="breit">
+        <label for="koerper">- breit</label><br>
+        <br>
+        <input type="button" value="Berechne" onclick="berechne()">
+        <h3>Dein Idealgewicht beträgt:</h3>
+        <h1 id="ergebnis"></h1>
+    </form>
+</section>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
